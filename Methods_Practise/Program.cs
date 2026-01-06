@@ -12,11 +12,16 @@ namespace Methods_Practise
         {
             return "This is a sample method.";
         }
+        public static String StaticSampleMethod()
+        {
+            return "This is Static sample method.";
+        }
 
         static void Main(String[] args)
         {
             Program s = new Program();
             Console.WriteLine(s.SampleMethod());
+            Console.WriteLine(StaticSampleMethod());
         }
     }
 }
